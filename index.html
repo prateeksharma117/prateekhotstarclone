@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Kanit&family=Lobster+Two&family=Roboto+Condensed&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>hotstar</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="brand-logo" src="./images/download-removebg-preview.png" alt="">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="">Tv</a></li>
+            <li class="nav-item"><a href="">Movies</a></li>
+            <li class="nav-item"><a href="">Sports</a></li>
+            <li class="nav-item"><a href="">Premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">Subscribe</button>
+            <a href="" class="login-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">Loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero dolor aspernatur odit obcaecati ullam illo sit suscipit deserunt! Repellendus reiciendis tempora voluptate sapiente accusamus eum magni asperiores quam eligendi?</p>
+                </div>
+                <img src="./img/WallpaperDog-10810797.jpg" alt="">
+            </div> -->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+
+        <div class="video-card">
+            <img src="./images/disney.jpeg" class="video-card-image" alt="">
+            <video src="./images/disney.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="./images/pixar.jpeg" class="video-card-image" alt="">
+            <video src="./images/pixar.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="./images/marvels.jpeg" class="video-card-image" alt="">
+            <video src="./images/marvels.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="./images/geo.jpeg" class="video-card-image" alt="">
+            <video src="./images/geo.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="./images/star wars.jpeg" class="video-card-image" alt="">
+            <video src="./images/star wars.mp4" mute loop class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title">recommanded for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/pre.png?raw=true"></button>
+        <button class="nxt-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/nxt.png?raw=true"></button>
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/9942/1279942-v-724d56a723a1"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Doctor Strange in the Multiverse of Madness</h2>
+                    <h6 class="des"> Marvel Comics</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/88/1100088-v-b96714f721d0"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Eternals</h2>
+                    <h6 class="des">Eternals is a 2021 American superhero film .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2353/1282353-v-ba90d44ce003"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Spider-Man: Homecoming</h2>
+                    <h6 class="des">Peter balances his life as high school student .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2347/1282347-v-57b71e72275e"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Venom</h2>
+                    <h6 class="des">A failed reporter is bonded to an alien entity.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/7631/177631-v"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">X-Men: Days of Future Past</h2>
+                    <h6 class="des">The X-Men send Wolverine .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/1514/1161514-v-8c2341c419fd"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Moon Knight</h2>
+                    <h6 class="des">Moon Knight a mild-mannered gift-shop employee.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/8773/1248773-v-661e811e289e"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Marvel's Iron Fist</h2>
+                    <h6 class="des">Danny Rand 15 years dead. Now with the power of the Iron Fist.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/8874/1248874-v-58e7f17aeb18"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Marvel's Jessica Jones</h2>
+                    <h6 class="des">essica Jones is a superpowered woman</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/273/690273-v"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Marvel's Cloak & Dagger</h2>
+                    <h6 class="des">Cloak & Dagger is the story of Tandy Bowen .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/7140/957140-v"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">The Nevers</h2>
+                    <h6 class="des"> The Nevers is described as an epic science fiction drama .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="title">New Releases</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/pre.png?raw=true"></button>
+        <button class="nxt-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/nxt.png?raw=true"></button>
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/6998613.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Dune</h2>
+                    <h6 class="des">A noble family becomes embroiled in a war .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images6.alphacoders.com/119/thumbbig-1193267.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Last Night in Soho</h2>
+                    <h6 class="des">An aspiring fashion designer is enter the 1960s .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/6790567.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name"> Spider-Man: No Way Home </h2>
+                    <h6 class="des">With Spider-Man's identity now revealed </h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/2198165.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">No Time to Die</h2>
+                    <h6 class="des">James Bond has left active service.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://w0.peakpx.com/wallpaper/460/994/HD-wallpaper-movie-coda-daniel-durant-emilia-jones-thumbnail.jpg"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">CODA</h2>
+                    <h6 class="des">As a CODA Ruby is the only hearing person in her deaf family.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images.alphacoders.com/120/thumbbig-1209316.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name"> The Last Duel</h2>
+                    <h6 class="des">Charles declares that Knight Jean de settle his dispute.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images3.alphacoders.com/114/thumbbig-1148859.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Nobody</h2>
+                    <h6 class="des">A docile family man slowly reveals his true character.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images7.alphacoders.com/118/thumbbig-1185826.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Spencer</h2>
+                    <h6 class="des">Diana Spencer, struggling with mental-health problems .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images.static-bluray.com/movies/uvcovers/44396_medium.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Pig</h2>
+                    <h6 class="des">A truffle hunter return to Portland in search of his pig .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images7.alphacoders.com/119/thumbbig-1198446.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Nightmare Alley</h2>
+                    <h6 class="des">A grifter working his way up from low-ranking carnival.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="title">popular Releases</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/pre.png?raw=true"></button>
+        <button class="nxt-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/nxt.png?raw=true"></button>
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image" src="https://wallpapercave.com/wp/wp3828531.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Top Gun </h2>
+                    <h6 class="des">Pete Mitchell, an impetuous, daredevil Navy-pilot ace.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://hbomax-images.warnermediacdn.com/images/GYnEqqwAqmj3DwwEAAAAD/tile.jpeg?size=1280x720&format=jpeg&partner=hbocom&v=88852b189270272465ae6deca73a1468&productCode=hbomax&host=artist.api.cdn.hbo.com&w=1200"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">The Card Counter</h2>
+                    <h6 class="des">follows an ex-convict who becomes poker player.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/54044.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Black Panther</h2>
+                    <h6 class="des">Black Panther is a 2018 American superhero film .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/thumb/7562791.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Shang-Chi</h2>
+                    <h6 class="des">Marvel Studios' "Shang-Chi and The Legend of The Ten Rings".</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images8.alphacoders.com/932/thumbbig-932824.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Alita: Battle Angel</h2>
+                    <h6 class="des">Alita: Battle Angel is a 2019 American cyberpunk action film.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/thumb/2116417.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Joker</h2>
+                    <h6 class="des">A mentally troubled stand-up comedian.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images3.alphacoders.com/121/thumbbig-1216311.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Fantastic Beasts: The Secrets of Dumbledore</h2>
+                    <h6 class="des">Secrets of reveals now.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images5.alphacoders.com/106/thumbbig-1061967.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Harley Quinn: Birds of Prey</h2>
+                    <h6 class="des">Birds of Prey is a superhero film.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images2.alphacoders.com/119/thumbbig-1198451.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">Free Guy</h2>
+                    <h6 class="des">Free Guy is a 2021 American action-comedy film.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/2023000.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Bad Boys for Life</h2>
+                    <h6 class="des">2020 American action comedy film.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="title">web series</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/pre.png?raw=true"></button>
+        <button class="nxt-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/nxt.png?raw=true"></button>
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image"
+                    src="https://c4.wallpaperflare.com/wallpaper/824/665/212/wagner-moura-raul-mendez-pablo-escobar-tv-series-wallpaper-preview.jpg"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">NARCOS</h2>
+                    <h6 class="des">Narcos is the story of Pablo Esbor the drug lord & billionaire.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://w0.peakpx.com/wallpaper/23/535/HD-wallpaper-la-casa-de-papel-lacasadepapel-show-thumbnail.jpg"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">MONEY HEIST</h2>
+                    <h6 class="des">the best heist crime drama Web Series that has ever made.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images7.alphacoders.com/118/thumbbig-1181582.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">SQUID GAME</h2>
+                    <h6 class="des">Director Hwang Dong-hyuk also wrote and created this show.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/1902878.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">THE CROWN</h2>
+                    <h6 class="des">It is a historical drama that tells the story of Queen Elizabeth".</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/thumb/2298688.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">LUCIFER</h2>
+                    <h6 class="des">the character Lucifer Morningstar who is the lord of hell.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images7.alphacoders.com/391/thumbbig-391553.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">VIKINGS</h2>
+                    <h6 class="des">Michael Hirst’s creation Vikings is a historical drama Web Series.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://picfiles.alphacoders.com/688/thumb-68814.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">MR. ROBOT</h2>
+                    <h6 class="des">Mr. Robot is a thriller show which has a total no. of 4 seasons.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images3.alphacoders.com/658/thumbbig-658460.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">THE ORIGINALS</h2>
+                    <h6 class="des">The Originals is fantasy supernatural Web series.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images3.alphacoders.com/830/thumbbig-830474.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">THE LAST KINGDOM</h2>
+                    <h6 class="des">It is based on a novel called the Saxon Stories .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/thumb/888120.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name"> GAMES OF THRONES</h2>
+                    <h6 class="des">American fantasy drama series.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="title">Popular web series</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/pre.png?raw=true"></button>
+        <button class="nxt-btn" title="btn"><img
+                src="https://github.com/Pranav-8bit/hotstar/blob/main/images/nxt.png?raw=true"></button>
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image" src="https://images4.alphacoders.com/110/thumbbig-1100295.webp" alt="">
+                <div class="card-body">
+                    <h2 class="name">The Boys</h2>
+                    <h6 class="des">what happens when superheroes who are as popular as celebrities.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://images.static-bluray.com/products/20/113503_2_front.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="name">Who Killed Sara</h2>
+                    <h6 class="des">Who Killed Sara is a Mexican mystery television series.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_ZWQt-PrxjVQhgU8gysvh_fines_po07LbzaW4DbNAahprWhP"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Evil</h2>
+                    <h6 class="des">Evil is an American supernatural drama series.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMKxxeEoCsf8HwwgrHeq4iL2xgLeNqMaLJoaRyFYxB521CfXn"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Orville</h2>
+                    <h6 class="des">The Orville is an American science fiction series.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8srqOxlZv_8VCzPv4LBsFpPgr210NdhNUef8MbJrqWVSCzdDn"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Westworld</h2>
+                    <h6 class="des">Westworld is an American dystopian science fiction.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://m.media-amazon.com/images/M/MV5BYTNiYTNkNTAtYzE3ZS00ZDQ1LWEwZTYtZjI1NzYzMWJjY2U4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Love Death + Robots</h2>
+                    <h6 class="des">Uncanny worlds, strange creatures and twisted tales.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZ-87Fdn-f0GNiMsvPUyT5Xvl-GQBGyBlk26IWGlil1mU2H3B"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">First Kill</h2>
+                    <h6 class="des">Falling in love is tricky for teens.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNw2I3rNPMPTCRIcaX0ENAu-WIIiMUnCjWiKxc2o62FL54Zz_P"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">The Man Who Fell to Earth</h2>
+                    <h6 class="des">An alien crashes deep into the oilfields .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTkcUBsyDcPBR5EFpCrOLa-vFi9FUBUXGgV6B9m2r1ubAytXPMb"
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Guilty Minds</h2>
+                    <h6 class="des">Guilty Minds is an Indian Hindi-language legal drama .</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image"
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgWFhYYGBgYGhwYGRoaGhoaGhoYGhgZGhgYGhocIS4lHB4rHxgYJjgmKzAxNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQkJCExMTQ0NDQ0NDQxNDQ0NDQ0MTQ0NDQ0NjQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0Mf/AABEIARMAtwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EAFAQAAIBAgMDBwYJCAgEBwEAAAECAAMRBBIhBTFBBiJRYXGBkRMycqGxsgckQlJzgsHC0RQVIyU0ksPwM1NidKLS4fFDY7O0FzVkg5Oj8hb/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAnEQACAgICAgEEAgMAAAAAAAAAAQIREiEDMSJBURMycaGBsQRCYf/aAAwDAQACEQMRAD8A1v5pQiwI3b+joEpsRhcpt/I6paPV43NjwvYjwldiWs2l9ddemaRs5pUDjC3k/wCQgaseyJKxG4CUW2uUnknyFC11DXDAbyRbd1Sm2SlfRa1kAkOWU2A5SJUqIhpsuc5QcwOp3XFhIX5VKCR5JtCR544HsjyQYP4NDlnCsq8Lt9Hp1HCMDTAYrcagm2htpu6IC3K9B/wj++PwhkgwZoss5kgSbWDYk4fIbi/OvpoubdaN/PA/KDh8huPlX08zPut3QyFiw/LHZZT0OUaNSeoUYBCgtmBJL3trbTdBhytX+pb98fhDJDUWaLJOqkpMZymRCgCFg6K45wBs19CLHXSdwHKZKjqnkyt8xvmBsFUsdLdCxZIeLLwU5KiTOJyvThRbvcfhDU5QqaLVQh5rKhW4+VuINuroiyQYstwI68zh5WL/AFR/fH4Q3E7aVRTIQnygBGoFtQLHxhYYsts8azylx231R2TIWymxNwNeOlo/Zm2VrOUyFTbMNbg2tfs3x2FMtN84yx9rRwdYCA2SKEtTvu3xRWFBL1L8AJGRJhSkn5Pzb6C2m469sVjoENOZLbSfH6P/ALfvtNuwFt1z03MxXKOsExlNyCQioxA32DsdLxN6KhHYtpr+sKX1PaZ3kd/S1u732kAxq18bSdFYC6CxtfmkknThaD7Oxb0hXdLXDINRcWLuPwivZo4uq/4huzR+jxfoD3zNByTX4uPSb2yswOz3TC16rFbVKYy2OujG9+jXS0WwaOMKIaTAUs+o/R/OGfzheNOhNWmdwyfrJ/rf9MSJl/WT9/8A24nMbSqtjnFE5XvobgaeTF9T1RmzqVRcdaqbuA2Y6G/6E21HVaFir+iuwg+KVvTpfel7Vw71cBSWmM7ArcC2mXMDv6JzkThlenXRxdWyAjqs0jwVR8DiDTck0n1zcLblftG5h/pAH2WmKoMmzyrCzLTUEHgbjSN5OD4keyp96WPKL9mq+j94QLk0vxE9lX70PZPr+QXkYP0FbtPuSowf7JV+kp+xpdcjAPyet2/clRhB8Uq/SU/Y0Vj9sstoL8Qp/U+9BMcLJhOtB74ixFao6UcOMuV1QrfTnG4HO6L6STbmHKHCoSCUUA23XzLe0LAMwB+P1fr+1Z3A4SouMqOUYIc9m4G5FpFs/wDb6v1/as1AQykJkDGMtrCBTiZI7JoWYW3RTgnIhlvUp5Raw7eMhAvJahvGBJKKYw0x1iY/bdP4/RG+/k/fabUCU2P2K1TEpXzqAmTm235WLb79cTKjSew5MMAdFA7ABMPsfC51xacSlx6SszL6wJ6GAZS7D2IaDu5cNntoBa2pPE674PbCOkzPbLr5sBXT5l/3WIYevNLfkcvxZfTf2xYXkwyLXQVFy1VygZTzbNdSddbAkQReR1YCy4nKOgBwPANBWU6d7IMKv60f63/TEYy/rN+//t5fUdgsuKOJzgg35uU31QLvv1XjG2CfytsRnWxvzLa60/J7798YrX6MjsrEvSw1Z0Yq2ekLix0Oe+8Sz26xfAUaj857rzja/ODX3dNh4Sww3JMihUpGqCXKMGC6ApfeL63vBH5GVioU4m6jcpDlR2DNaGxOrsmrH9Wj6Jfas7ya/YT2VPvS2r7HvhvydX+QEDEdFtbDsndjbH8lQ8izBr57sBbRr8D2xk+ih5Gr+grdv3JTYb9kq+nT9jS9TkbVQEJibA9AZb9oDSZOSjDDvS8qMzurZspsAt7AC+p1MimPRSbUUrRwtUbwtu9TmX70M5TuGqYZhuYAjsLKR7ZdYnYOfDJh84zJls9tLi99L9BIg2J5Mu60Aaq3ojLfKecAwK2100AEoQJspP1lWH0ntWTbNx1VsfVpFyUXPZdLDKVA4X4yfH8kqlSs9VK+TOSdzXF7XGZWFxeTbD5LPh6zVHq52KldARqxBLEkm+71x2BbOLSBjD2odcgemBFYqBTFHNfoijEXRw9t8D2in6Kp6D+6ZZMSd8H2gn6Kp6D+6Zk3o1S2eT5ZzyZ64X5Oersm+Yx8jpm8Tx+jUdCGRirDUEH+bjql7yxbM9Ft2akG8ST9spymkveVSfs/0CQUtMHHaJ+QC/031PvzXlZmeQaW8t9T781xWbQfic/IvJg1p5lytfNiqn9nKo7kW/rvPVbTyLaj561R/nO57sxt6rRyYQWzS8gH5lVOhlb94EfcE0G2P2et9G/uNMtyDqWrOnzqd+9WX7GM1+2P2et9G/uNKi9CkvI8fVypDKbEEEdo1E9kwTB0R1811Vx9YA/bPHWWem/B/js+FCE602ZNeg89fet9WJMbRg+VotjKw/tL7iQ/GL+qaB/9Q38aBcsj8dr+kvuJDsYf1RQ/vDfx46EZUt1xvlB0jxml5AC+OQf2X9xp6w2FXeVHgIXQHh+0XH6LX/gpx62gebrnvT4cHUgHo0E8m5fgDGuBpzE90RpiM07gbz656L8HqBsM53/pW6/kJJ/g1Yfkz3AP6ZvcSaw9QtBsTAKlICKPqC54zsYi38nI8dRPkah/5b+6ZYmxg+PN6bgbsje6Zi+jZLZ5aaM9RZJgGw+s9IZJhwu7N+ZdHkIo6d0ueVFP9n+gSDNhza0tOU1O/kB/yVmalpmjW0O5CprW+p9+a7yYt1zN8i6dvK/U+/NQwnTxvxRzci8mBYpsiO/zVZvAEzyfZuGzvl6UqHvFNyPWBPTuUr5cNVPSmX98hftmK5G0M2Jt0U3PjZPvRye0ggqTYFySqZcVT/tZl8UJHrAm82yvxet9G/uNPONlvkr0idMrpfszAH1XnpO2h8XrfRv7jSovRM1s8fM1nwdYoLiHptuqJcekh/ys3hMqqXIA3nQdp3QnY+M8jXpVOCOC3oHR/wDCTGgkiXlmPjtf0l9xIdjCPzRQFtfyhter9NAeWf7bX9JfcSGYz/ymh/eG/jSyCDkAfjyei/uNPY0vbWeJck9pJh8SlWpmyKHByi5uyEDTtM37/CJg/wDm2+jH+aJjNiyg7p418JC2x7j+wnuT2CkwYBgTYgEcNDrPH/hKPx9/Qp+5CPYmaj4L6WbCueis3uJNg1uiZP4Kf2Wp9M3/AE6c2T4c8YPsKAmReMUfXokbjfuigSXAWMxKcx/Rb2GEBI2snNbsPsmL6N0tmKfD6y3bbD/MX1xHDywbY6H5Ter8JxwU94nXNx9mTeiAOuE8ok/ouqkomhXYaXuSzW4G1u+wlXyoXnp6H3jKwlGLbJU1KSSIOR6W8r9T780hlHyVTWp9T70vTOjh+xHPyryZm+XFS2Gy/PdR4At90Sj5CUv0tRuhAv7zX+5LHl2+lJOtm8MoHtMi5EZVWqzMouUGpA3Bjx9KF+Y68DF7WplK1VRplqPbuc2+yekbTcNhqjfOouw70JmD5UoBiatiCCwa41HOVT9s2OGfPs3Nv+Lup7URkPuzSL7JktJnmWENqiemnvCP25hPJYirT4K7AeidU/wkRmE/pE9NPeE0/wAJmByYhKgFhUSx9KmbH/Cy+EaB9mT2piDUfOTcsiX9JUVG/wASmXWNH6oof3hv48zhmlxy/qeh/eW/jzREMz2ytmviaq0qeXOwYjMcosoJOtugS+f4O8cQdKX/AMh/yyH4Pf2+n6L+409opc4awboQPhcPlRQx1CgEDdoAJ498JYtj3t8yn7k9t8mBPEvhMFse/oU/cij2DRpvgvqWwz/TN7iTbflQmH+DFScK9v65vcSap0Ija2RdEtSqOmKCqJ2FCs2eSNemLHsPskitH20mT6OkpHoS0KyOtSk7LMeKNWVN3REyzM8pU56+j9pmnZZQbfS7L6P2mPn+0fF9wNyaX+k+r96XTSg2fihSzXUnNbdbhf8AGFJttCyrka7ELvHE2k8PJFRSbHy8cnJtIznLN81ZR81B4ksfZaZh8Ox1Ck9xM0PKWpeu/UQvgoHtvNJyaW2GTrzHxdreq0SWUmNvGKPLq9MroQR2i02Gwat9m1V+YtZfFC/35B8IVM+Upt0oR+61/vSHkxU+K4xOhGb96m4Puiax06Il5KzHYY/pE9NPeE9M+EbC+UwhcatSdX+qeY3vA/VnmuGTnp6a+8J7VjcGtWm9M7nVkP1gR9s0iRLs8FM1GOH6mof3lv48zNVCpKsLMpKkdBBsR4iajHn9S0P7y38eWiGBfB6Pj9P0X9xp6+i23meI8mNrJhsSlZ1ZlUOCEtm5ylRa5A4zbH4S8P8A1Nb/AOv/ADxtCZ6LRtwuZ4n8KP8A5g/0dP3J6tsHbC4iglZFZVfNZWtcZXZDexI3reeT/CW18e/oU/ciitg2aX4MCfySpb+ub3Kc1ppEzKfBcfir/TN7lObVRbjG+yANqZ6IocagiisKNCslBkKmOzTNG4qgvI3MexjDFVDIixgOPwxcggjQW1vDyJzJFKOSphGTi7Rn6uyHPyl9f4QelsRw6MWWysrceBB6JpmpyNkkLhiU+aRksdybd2d8yc5mbUtxJPzZf4DDhKaId6KASN1wNbd8Lyzq05cYKLtEynKSpmZ5U7FfEhMjKpTNfOTubLusD82VuyeTNektdWemRVpMgsW0c6KTdd2pm2FOcanKxV2Tk6o8zpchMSHVs9LRgd78CD8yejqO6SJSnDTjSSJbb7POtu8hK1XEVKlN6So7ZwGLggsAWvZSPOzHvhOJ5I1mwFPCh6edKpctd8hU+U0HNvfnjhwM3ZWMZZSE2eVf+G2J/raHjU/ySNvg3xP9ZQ8an+SerlTGFTHYm2UvJrZ74bDU6LlWZM9yt8vOd3FrgHcwmX5V8j62JxLVkemqlUWzF781bHcpE9CFGPTC3hZKsyXJDYj4WiyOyMWqFwUvaxVFtqBrzTL4Xlk1FV4SMgmGQ6ASh6IpLjKy0lz1CQt7aKzansEUWQYs0cUSkEAjUHUTtpBscnDOzhgA0mcjrRZYCG3jTH5J0p1wAiInAklIAjbwERsJy0eyzlpQELaRtzJ3F5zJ1QJImEYywtacRUA2vr0QHQF5OPWmOMKZQd3qjVQeGnfCwohencEXIvuItcHpF9PHSVuz9qhi1NwBVpuEcKLBgxsjqNeaRa/RrLZ1lLi+TNKpUWoc4bPmchjdhlsE/sjdu1sO+Ay1Nu+III3D7KopqtJAenKCf3jqfGUXKLbj0XsqkKgLObC2o5oJIy345bgm3C8TdCoXK/GolNV0LObpcKQAu/zupujjFMJtzlA1fKrEZFIyi1spym7E6nnX6TuHaVIabHZ6HgeVtPQOGBIPRpY2A1N9Rrc9E1Cm4B6Z5HsjH2YBs+XMpYKRcAHNYE63M9U2TiFekroCFN7X0O+2o4booNvTLYTEVj7RESySO0UfaK0AIyJwJJLRQAYUnMseZy8AG5ZwqI53A1JA7dIHV2pQXfUTuNz4C8AJykcJW/8A9Bhr2z24ao4+7CMJtKjVJWnVR2GpVWBa3Tl3wFQVaMekG0YA8bEX75KUjbSgB8Th3YWRyh6coNhxsOmOw+HCIqDXKALnebcT1nfJrRrEDUkDt0gA20V4Hidt4ZPPrIOq9z6pT4jlphgbItSodPMXTXrJhTJyRpLzA/Cu96VFQbEuxGupsvR0b9eHfNCOUiFCVpPmsbBioGa2gZrmwvxseyea7VwmKr1DUqujMdLBjlUdCD5ojUG/Qs4+2ZxibgXNgNL33cND/OsUthsOqTzyiC1hvP8AO4cYpphL4D6kfkun2KyG4ZhrrpZfVcnj4zVcjMalHOtQol8tjrZrdJI39soqG1CN/t/GE/nFG3+yJQj+DPOa9pnpNHFI/mureiwPsk88uFSkdxH89kLo4xl82rUXsckeBh9JPpgudrtHo0Uwv51qkWNZvAqfFTIy6uOe2Y33mpUOnVdgAYnxSLjzRfejcVcSi+c6r2sBAMRt/DINaim3Bbt7BMhUoUgGJpl1A0VXcsx7n3zK4/Eu/m4Y0hzhzlc62uu9husddRukOEkaKcH7PQcXy2pDREZj0sQi92pJ9UosdywxDDmstO/BQC3ruZldl5mKU2pgu7AaZ83G++9twN7dM0T7FQ2ulYi3yHpmx6DdRBRbKyginxGNdiXdnZjoLtc+F7AQeriyLktvHAnd9kvn5OUzrlrDqL01HeSl+ndeEpsbDKmV6OcneWao5PeMohgxPliYvD41yxyk2IPG/N/nj1wyi5zHKhLKRYqDmL2vfMNx3m/2maejs+inmYYi3zmI9pa/jHPWyiw8nTXoAzN12Av9kpQbIlzRI9l7Yx6DzswPyavOt2Ec4DqvNJU27XyA+TRTbVi117QN4HbeZhqtJW/ondxxqCwB6lO7wk9IYqqpdaYVBpoy8BfQE8BxtNFxV2YS5pPSCam2Kzk3qOB/Zsg7tLmV+JqB1NzmI1JJZ7C+pI3QXDYhkrBlcq2ouwJAuLebY3OvRJsPtc5iLuDmPmKtPNc87NYXIHBbeEpJL0Z232wY01C5kQsugzW06tFFuEb5Wp1IPCXSZwXYu+oIPlMqhhu3cBoNRA6GFQPdkzDeLtfWWpxXSQnBvtgCOWNgHfsvl8YVTwOJY6KF10G8/wCktw6KPOVR0H/cXgVTaKr5rKG1uVU6+MluUg8I9guL2K66ub+kw9Qig2Ixrtvd29XsMUeMiHyxM5SxL/KNxxIXh3Wkj4wX5oa3C5+yax8Ejb0Xwt698Hq7AptuuvrH898lxY488faoz9LaJB3EeB9Um/OBOoJ8Pwh9bk86k253Z9ogP5u5+W5vqTYZso4FtdLxVRtGUZdDl2sw4+2FJti/HwIP2ylx9BlJGUhdecdxOutxoOyA4amXYgk2A16eyNSY3BM1q7WI4nwEk/Ptv/z+EzyVWuLaan+TH0KrtUyXGovuHAEnf2R5tEfTNLR2+Pna9hk1Lbml858D9sy7VnXMVC6HoB0vb2kQfE7RbN5q27DxHb1wzbDE1o2pmDMKpBW1hlF2vvt2QXE7Re+tRuwC3jMm+12FwEQdFwT9sHfalQ2s2X0QB69/rlZkODZtqTB0cs7A20Bvc6gHedNL985i6VJDdKr5LD+kygjvBtMYuOfS7uennH8ZyviCaWUm+Vvxt9vjIcilDVG0wG3qVNg+dmYHzjzhqCOOkOqcsaPOVBzmOcmwGoAZWB1N+Nt08ueubWkaVW0I4b7dH8m3hJezWKpUbpNsu4zJl1a2jc65uSdwtu6Z0VGbnKCevW+a1yL+Osy2ErqEc23aAX6w1/VbvhX5xcKEVgM7KCx0Crffp1XkuUvQsIs0NfHspy5ypvY3J10u2h10JA/GCY/FVFsvm5rNzb87MbDXsheIoUTkKVw5RbM1srnWzMA3Df4nXWU2LNPzQ7NZrK5Nzl036aHVrWvwk5O9lqK9B+Ax5bmP5wJAPTa2h69YY6QbAYWk6+UaoadPgXs7sVHPyAW1v16Gw6oQjq4uhuN1zodOkDjOnilkqZw/5HEovJexoAB1NrcQL37J2OqCxsW0BOq6n7Dbt652aHOXKydL+EgRhJQ0kaAdvVKy03KMqKoBLBjnJvbINNLnrllgNmolJVIDNvdj5xY+cSd/G0dTAO8A8RcA68DrxhLG8za2bKeqRCdlUyba2Nyb2PTp/P2TKYXY+TE1qehOVHUdKEm9rngdJskffx437+Eqtq4UmouIQ2qImWx81035T0G+oPd2GJpHkdUZ7EYEo2qsvRf+dYzC4UitmOoCsL8LkWtrx1OktcPyho1ENzlI0Ktbf0de6V2M2ogcjS3ALoANLEe3vkSrpGsHJ9qgLEPmLC3ySAD02uLjtAlK1TNbw+37fVJq2Mu4botcdYN4M5CsQNRfQ9UEiiKushtDgt5w4e3CMLGombqsLyKq+Vm+aQRpw4j1gQtKBB03SPGUekWg0CeysaRgkH7ZM6WnGpxF2dRza3A7+3W3theHRncLY3NuncNSe5bnukVKmCFBIG8aLra9yTbedePDTdaaDkzh9KzkHSnkv0HzjbuT2cDJelYl2Q7K2oaSindbNU5xyKX6POIPN6haG1aSriWBUKmdQWtfLnUtbov2dEq8fs50crY6hW69d3fqZcYykBgTUy85nFhmtey6ta2tt3fJey0V/KXb7VWempC01AVVsPknhYb9+sfyWxRAane4ID3G4Gw07dT4GZTKdOs/z7ZebDpujZgNFZA+ttCQPrGzHd0zWDpmPNHKLRsauG01uDfS4sCNb69O7TrnI52BPnEgdJv2dkU6DzQrOJKH7JVYRAjMF83Xf0621HVbvhueRB2rL5I4yoMo1eEKWpKxX1k4qRtEphLv0dhg2J2nTTz2AsPNvziezhAdt7R8nTzDzjoO3p9kwnlyxJJuTqTM5P0jp4eNNZSLvaOKpvkyIqBMwvxYMQeceNje3RKXEDWaLZ/J9mQO75M2uW2oHC54Hqjq/JgE6VDb0L+vNEos1fNFOrMmBwlvszZL1wSNFXj0n5o6+vhLbD8naSm7FntwJsPVqfGX+HCqAFAAG4AWA7pah8mU+df6mToYZQSuXd4wulhgbDLu/nWaKrRUnVQeviO+RHZZ3qQeo6QcSY8t9lXSw4B3W/EQfH4FSOv2Q/Ho1MgaEkX37h2nsgbI7ZLN55sSBuGbLfw1kGivsrk2OraE265QV6WV2A3AkDsvPTG2bTHBh2MZjsTgjRqg1ULJe+m4jpB6RvtBxocOVMrcPhr2PXvteX2y0ZFqK3NLhWU6AaE7uq/CH4c4YKGRVfMdFLc7ryo5tcXGkIpeXqU2QotNRc3K6uQCEUL8gC5ufba0HHVAuXdvX5BMThSyGoNXNh1AaAW7yfCBbYxg/JKag2JDC1xxYdfV0cd8scTiQuGuwsyvqp6udr22OvbMZtDHuUFJz5jkmx0JJ1sBp07umY15HUnaBcNRzA8Df/b1y2wCc/XU823QLG2vaQR3wHZetyeGpml2dhGBDOAoAGUWsWO/Mb9BJA7B37wjZjyzUVsPxZOYsCNSSbAAC5J0A7YpyrpFN7PPClbtj0aC59ZKj2P+sQUTMej8IGMa9yQqgLvB3m3WOnhFjMciDXVvkqN56+odZmSxOLZ2a5uTvsdOwdUzm/SZvwwvbQfyg2j5Ryq3CJcLfeTxYyx5NbHVQKri7nVQfkjgbdPHqme2fRz1EQ7iwv2bz6gZvc1uroiir2y+aWKUYk5ecU3kDtOo80OQ6Y+m0Y51nM0AoLJuI6hU4QYVIi+t4AB7fosWD2JFrHqOu/oEplqFflEcdNf9twmtV9Jx6KNvRCetVPtEhxN48tKiiTa7qwBsykg6Dna7xrvtu7oRT2wjlkdQtyV1sVI3a74/aOzr2NNFFgdNB6jpKbaGCcc8pl3X6Oi9wTvi2i0oSLvDbOSmSyE2YaC91F9ebx9cJSrbQzK4DaTU7KdUvx4A77e3umic37ZcWmY8kZRe9ndq01emwIvpfTU6A+O8zz2thdTfr6er/Wb9K/TBa2zqZObL3cIpQt2acXNiqZT8nsHlGcjcbLccR8qXTvESALDQDhIHaXFJKjKcnKVsc7xQd2igKiUPHq2sEDyGqzXsGI4i2/svE5Ui4xt0c2hs8Nmd6rAdg0X5vXKdlDvkpJpoF6bDezeJ17JeBRUQq+vAkcbG4MlwGESnfKLE7yTc9knG9mkZuKaff6AuT2DYVGdltkBXXeHNvsv4zQtI0YW4DieGp49s67RxVGc5ZOyXylxA6pckZWsvG1r3678JIji+v+8TbyY2rVEReLslTDDRhvvfMfO7Dr2iSZpGlTh0RjPBRS6HJuW2TI8dnghedDxkhdKrwhAqSrZ5OlW8TQBxfjGvZ1KtuIse8QZak4aloqGjOY7Z7IWJ1UEDNbQ3F+78ZfYZSERWOoUC/dJXYEWNj4HdukGfW0EqNJSclTG1TGrWjqqHfbfe27hA6hjsjEJdoNUeMFWMcwChpeKDu05AuiUVI4PA80crwHRYq8lRrQFKsctSBNFgHkobSVyVJPTfrgTRKXnXqX6dIOzxnlLwFQSlWSO8rw/XJBU74x0Tl41akHLxrPAKCxUiWrYwXPOM8LCiw8pEXvA0q24g8OmdNWx6Oyx7ogoJFaJ3vrBC/fHJVgOiTypG6RO05VY77yAvAaQ124xprRrtB3MC1EkYzsHzxRBT+Ds6IooDZMN06kUUZJKu+SJviigIdU4yMRRQEMaPSKKAzrRh3TsUAGCSUtYooDIxvkkUUAHLOLORRASndBoooDQx+MHaKKBSITFFFEUf/9k="
+                    alt="">
+                <div class="card-body">
+                    <h2 class="name">Prehistoric Planet</h2>
+                    <h6 class="des">British-American five-part nature documentary.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-main">
+            <a href="">About Disney+ Hotstar</a>
+            <a href="">Terms Of Use</a>
+            <a href="">Privacy Policy</a>
+            <a href="">FAQ</a>
+            <a href="">Feedback</a>
+            <a href="">Careers</a>
+            <p> © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are
+                service marks of, and all related programming visuals and elements are the property of, Home Box Office,
+                Inc. All rights reserved.</p>
+        </div>
+
+        <div class="footer-content">
+            <h3 class="contact">Connect with us</h3>
+            <img src="./images/facebook.png" alt="">
+            <img src="./images/twitter.png" alt="">
+        </div>
+
+        <div class="appstore">
+            <h4 class="appstore-h4">Disney+ Hotstar App</h4>
+            <img src=".//images/social icons.png" alt="">
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="index.js" async></script>
+
+</body>
+
+</html>
